@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+## Storybook as a Static App
+.out/
+
+## Other
+package-lock.json
