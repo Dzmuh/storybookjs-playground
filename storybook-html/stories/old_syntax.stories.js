@@ -1,4 +1,6 @@
-// Создание раздела с помощью storiesOf
+// Создание раздела с помощью storiesOf.
+// Это устаревший синтаксис, он не рекомендуем к использованию.
+//
 import { document, console } from "global";
 import { storiesOf } from "@storybook/html";
 
