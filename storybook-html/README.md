@@ -44,6 +44,31 @@ Storybook позволяет достаточно гибко [настроить
 
 Storybook имеет расширения. Рассмотрим ряд рекомендуемых.
 
+### Docs
+
+Установка:
+
+```bash
+yarn add -D @storybook/addon-docs
+```
+
+Расширение имеет зависимости, поэтому выполним ещё:
+
+```bash
+yarn add -D react react-is babel-loader
+```
+
+Дополним файл `.storybook/main.js`:
+
+```js
+module.exports = {
+    stories: ['../src/**/*.stories.(js|mdx)'],
+    addons: ['@storybook/addon-docs'],
+};
+```
+
+* [Storybook Docs Addon - Github](https://github.com/storybookjs/storybook/tree/master/addons/docs)
+
 ### Links
 
 Создание ссылок между страницами Storybook.

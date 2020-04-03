@@ -1,3 +1,4 @@
+// Создание раздела с помощью storiesOf
 import { document, console } from "global";
 import { storiesOf } from "@storybook/html";
 
@@ -7,8 +8,8 @@ storiesOf("Nome do Componente", module)
         const template = document.createElement("tpl");
 
         template.innerHTML = /*html*/ `
-      <h1>Hello World</h1>
-    `;
+            <h1>Hello World</h1>
+            `;
 
         return template;
     })
