@@ -40,8 +40,6 @@ npm run build-storybook
 
 Storybook позволяет достаточно гибко [настроить](https://storybook.js.org/docs/configurations/options-parameter/) себя под конкретный проект.
 
-
-
 ## Дополнения
 
 Storybook имеет расширения. Рассмотрим ряд рекомендуемых.
